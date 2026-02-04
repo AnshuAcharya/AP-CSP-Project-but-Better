@@ -169,7 +169,7 @@ Algorithmic efficiency: linear, O(n)
         question, answer = random.choice(list(d.items()))
 
         print(question)
-
+        answer_done = d.pop(question)
         answer1 = input("What is your guess?")
 
         answer2 = (answer1.lower())
@@ -264,7 +264,7 @@ Algorithmic efficiency: linear, O(n)
         question, answer = random.choice(list(d.items()))
 
         print(question)
-
+        answer_done = d.pop(question)
         answer1 = input("What is your guess?")
 
         answer2 = (answer1.lower())
@@ -360,7 +360,7 @@ Algorithmic efficiency: linear, O(n)
         question, answer = random.choice(list(d.items()))
 
         print(question)
-
+        answer_done = d.pop(question)
         answer1 = input("What is your guess?")
 
         answer2 = (answer1.lower())

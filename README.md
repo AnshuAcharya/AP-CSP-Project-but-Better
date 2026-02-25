@@ -1,1 +1,1 @@
-AP Computer Science Principles Class Projects: this includes different kinds of APCSP projects I worked on for this class, mainly ideas for APCSP project
+I took Julliete's AP CSP code and made it good

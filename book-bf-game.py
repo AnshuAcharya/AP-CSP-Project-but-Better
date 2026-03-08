@@ -29,7 +29,7 @@ Return type: none
 
 Algorithmic efficiency: linear, O(n)
 '''
-    bookBoyfriend = ["Aaron Warner", "Kai Azer", "Jacks", "Rhysand", "Percy Jackson", "Ridoc", "Leo Valdez", "Odysseus", "Jason Grace", "Conrad Fischer", "Finny Smith", "Winston Smith", "Cassian"]
+    bookBoyfriend = ["Aaron Warner", "Kai Azer", "Jacks", "Rhysand", "Percy Jackson", "Ridoc", "Leo Valdez", "Odysseus", "Jason Grace", "Conrad Fischer", "Finny Smith", "Winston Smith", "Cassian", "Kaz Brekker", "Matthias Helvar", "Jesper Fahey", "Edward Cullen", "Jacob Black", "Peeta Mellark", "Finnick Odair", "Rowan Whitethorn", "Dorian Havilliard", "Chaol Westfall", "Cardan Greenbriar", "Maxon Schreave", "Mr. Darcy", "Captain Wentworth", "Day (Daniel Wing)", "Maven Calore", "Josh Templeman", "The Darkling", "Marco Alisdair"]
 
     if correct <= 2:
         print("You must not read that much...you did not win the game. You only got", correct ,"correct. Time to start reading! Check out the Shatter Me series for a dystopian romantasy, Fourth Wing for a peppery dragon-riding and school book, or just honestly any book, you need to get reading.")
@@ -97,7 +97,25 @@ easy_questions = {
     'Said: "I would be in the bed next to you if my brother had not slipped a ring on your finger"': 'kai',
     'His tail is used to show his emotions': 'cardan',
     'The first MMC in the Twisted series by Ana Huang': 'alex',
-    'Prince of hearts': 'jacks'
+    'Prince of hearts': 'jacks',
+    'Captain of the Fjerdan army who falls for a Grisha': 'matthias',
+    'Barrel boss of the Dregs in Ketterdam': 'kaz',
+    'Vampire who watches Bella sleep': 'edward',
+    'Werewolf best friend in Twilight': 'jacob',
+    'District 12 baker who loves Katniss': 'peeta',
+    'The boy on fire from District 12 who hunts with Katniss': 'gale',
+    'Fae warrior with a territorial streak and Illyrian wings, mate to Nesta': 'cassian',
+    'King of Adarlan turned rebel in Throne of Glass': 'dorian',
+    'Fae prince and warrior, Aelin\'s mate in Throne of Glass': 'rowan',
+    'Captain of the Guard in Throne of Glass': 'chaol',
+    'Sharpshooter and gambler from Ketterdam': 'jesper',
+    'Prince of Illea who falls for a Five named America': 'maxon',
+    'Mr. __, the brooding gentleman of Pemberley': 'darcy',
+    'Legend of the criminal underworld in Marie Lu\'s book': 'day',
+    'Silver-blooded prince with the ability to control metal': 'maven',
+    'Said "to whatever end" to his queen': 'rowan',
+    'Has a blood duel with the Autumn Court heir for his mate': 'rhysand',
+    'MMC in the Hating Game who is very tall and loves to argue': 'josh',
 }
 
 medium_questions = {
@@ -114,7 +132,25 @@ medium_questions = {
     'Brother to someone who proposed soely for the benefit of the kingdom': 'kai azer',
     'Attempts to defy the party, but conforms in the end, writing "2 + 2 = 6"': 'winston smith',
     'Makes Echo say "Kiss me, you fool"': 'leo valdez',
-    'Buys all of her paintings so no one else can own what she made': 'alex volkov'
+    'Buys all of her paintings so no one else can own what she made': 'alex volkov',
+    'Wears gloves to hide his touch and runs the Crow Club': 'kaz brekker',
+    'Says "I will have you without armor, or I will not have you at all"': 'kaz brekker',
+    'Sparkling vampire who plays the piano': 'edward cullen',
+    'Gave up his memories and went to a Roman camp as a praetor': 'jason grace',
+    'Paints stars on the inside of her drawer to remind her of him': 'rhysand',
+    'Son of Hephaestus who dies and comes back to life on Ogygia': 'leo valdez',
+    'Decorated war hero from District 2 who volunteers as tribute in the Quarter Quell': 'finnick odair',
+    'Ties knots with rope to cope with his trauma in the Hunger Games': 'finnick odair',
+    'Bakes bread and paints camouflage in the Hunger Games arena': 'peeta mellark',
+    'Declares his love on live television before the Hunger Games': 'peeta mellark',
+    'King who places a crown of flowers on her head rather than gold': 'cardan greenbriar',
+    'Fae warrior who says "to whatever end" as a pledge to his queen': 'rowan whitethorn',
+    'Prince who secretly sends his love letters through a palace maid': 'maxon schreave',
+    'Said "You pierce my soul. I am half agony, half hope"': 'captain wentworth',
+    'His proposal was so insulting she rejected him at Hunsford': 'mr darcy',
+    'Criminal mastermind from the Republic who is known as a legend on the streets': 'daniel wing',
+    'Former assassin from Adarlan who becomes King of the North': 'dorian havilliard',
+    'MMC whose love interest makes a deal with the villain to save him from a prison camp': 'rowan whitethorn',
 }
 
 hard_questions = {
@@ -131,6 +167,21 @@ hard_questions = {
     'Lets everyone die to save his crew but at first would not kill even something trying to kill him': 'odysseus',
     'Promises to return for Calypso': 'leo',
     'The reason his girlfriend has to watch Percabeth alone': 'jason',
+    'His real name is not known until the end of the first book; she calls him "bastard of the barrel"': 'dirtyhands',
+    'She calls him by his last name as a term of endearment, and he calls her Wraith': 'brekker',
+    'Dies protecting his district partner with a trident and sugar cubes': 'finnick',
+    'He asks "Do you want a sugar cube?" as his introduction at a party': 'finnick',
+    'The FMC says she hates him for making her fall in love with a boy with a bread name': 'peeta',
+    'Crowned himself High King of Elfhame through exile': 'cardan',
+    'She finds out he wrote her name on his hand under his glove in Fjerdan': 'matthias',
+    'His catch phrase is literally just "fire" and he says it about everything': 'team leo',
+    'Known for saying "Dirtyhands" has no heart, but he gave his to a girl from the Menagerie': 'kaz',
+    'His love interest is a literal sun summoner': 'the darkling',
+    'The FMC draws him with bat wings as an inside joke between them': 'rhys',
+    'He tattooed her name in Illyrian on his chest': 'rhys',
+    'Called her "Poppet" and ran a traveling circus of dreams': 'marco',
+    'The FMC refers to him as her "husband" even before they are actually married in Throne of Glass': 'buzzard',
+    'Was known as Celaena\'s "Sam" before she became Aelin': 'sam',
 }
 
 while True:
